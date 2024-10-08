@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport " content="width=device-width, initial-scale=1.0" />
+    <title>Currency Converter</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>Currency Converter</h1>
+      <form id="converter-form">
+        <label for="amount">Enter amount:</label>
+        <input type="text" id="amount" required />
+        <label for="from-currency">From:</label>
+        <select id="from-currency">
+          <option value="USD">USD</option>
+          <option value="IDR">IDR</option>
+          <option value="EUR">EUR</option>
+        </select>
+        <label for="to-currency">To:</label>
+        <select id="to-currency">
+          <option value="USD">USD</option>
+          <option value="IDR">IDR</option>
+          <option value="EUR">EUR</option>
+        </select>
+        <button id="convert-btn">Convert</button>
+        <p id="result"></p>
+      </form>
+    </div>
+    <br /><br />
+    <p>Created by Hekal Tampan</p>
+
+    <script src="app.js"></script>
+  </body>
+</html>
